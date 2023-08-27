@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+
+}
+
+
+
+#wrapper{
+    display: flex;
+    gap: 25px;
+}
+
+#control-panel{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    
+}
+
+button{
+    padding: 17px 15px;
+    font-size: 20px;
+    border-radius: 9px;
+    border: none;
+    font-weight: bold; 
+}
+
+button:hover{
+    background-color: rgba(177, 233, 67, 0.868); 
+      
+}
+
+h1{
+    text-align: center;
+    font-size: 75px;
+}
+
+#canvas{
+    width: 600px;
+    height: 600px;
+    display: flex;
+
+}
+
+.cuadrado, .row{
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+
+}
+
+.cuadrado{
+    background-color: white;
+}
